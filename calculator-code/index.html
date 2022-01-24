@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class='header'>
+        <h1>Edureka Assignment</h1>
+        <h3>Module 4 of Git & GitHub</h3>
+    </div>
+    <table>
+        <tr>
+            <th style="text-align: center; background-color: #F5F5F5;" colspan="4">Calculator</th>
+        </tr>
+        <tr>
+            <td>Number A</td>
+            <td>Operator</td>
+            <td>Number B</td>
+            <td>Result</td>
+        </tr>
+        <tr>
+            <td><input type="number" id="numA" value=0></td>
+            <td id='operator'></td>
+            <td><input type="number" id="numB" value=0></td>
+            <td id='result'></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;" colspan="4">
+                <button class='button' id='add' onclick='add()'><b>+</b></button>
+                <button class='button' id='subtract' onclick='subtract()'><b>-</b></button>
+                <button class='button' id='multiply' onclick='multiply()'><b>*</b></button>
+                <button class='button' id='divide' onclick='divide()'><b>/</b></button>
+            </td>
+        </tr>
+    </table>
+    <div id='msg'></div>
+    <div class='footer'>
+        <h3>Submitted by Shekhar Limbu</h3>
+    </div>
+    
+</body>
+</html>
